@@ -1,6 +1,90 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter Tight', sans-serif;
     box-sizing: border-box;
 }
 
+body{
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-color: rgb(192,  189, 189);
+}
+
+header{
+    background-color: rgb(50, 64, 78);
+}
+
+header .logo{
+    margin: 0;  
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #88aec0;
+    font-size: 3em;
+}
+
+header .containerHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Diseño para la imagen del inicio*/
+.descripcion .container__descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/campo_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+/*Se agrega un padding para la separacion de los parrafos de texto*/
+#gallinasPrincipales p{
+    padding-bottom: 30px;
+}
+
+/*ORGANIZAR LA INTRODUCCION A LA PAGINA*/
+.tituloGallinas{
+    font-size: 4em;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.seccionPrincipal{
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*CREACIÓN DEL DISEÑO DEL FOOTER*/
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer .containerFooter{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
