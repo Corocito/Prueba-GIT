@@ -71,6 +71,13 @@ h3{
     margin: auto;
 }
 
+/*DISEÑO DE LOS PUNTOS DE LAS LISTAS*/
+ul li{
+    padding-left: 1.3em;
+    background-position: 0;
+    background-size: 1rem .8rem;
+    background-repeat: no-repeat;
+}
 /*CREACIÓN DEL DISEÑO DEL FOOTER*/
 footer{
     background-color: rgb(230, 230, 230);
